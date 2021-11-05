@@ -1,0 +1,24 @@
+body {
+    font-family:sans-serif;
+    align-content: center;    
+}
+h1,h2{
+    text-align: center;
+}
+table {
+   margin: 0 auto;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tbody {
+    background-color: whitesmoke;
+}
+
+.tag {
+
+    text-underline-position: under;
+
+}

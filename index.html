@@ -5,50 +5,99 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>HTML Reference</h1>
-    <!-- Tag Reference -->
+    <h1>HTML Element Reference</h1>
+
+    <!-- Main Root -->
     <section>
-        <h2>Frequently Used Tags</h2>
+        <h2>Main Root</h2>
+        <table>
+            <thead>
+                <th>Element</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>The root (top-level) Element of an HTML document. All other elements
+                        must be desecendants of this element.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sectioning Root-->
+    <section>
+        <h2>Sectioning Root</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Tag</tr>
+                    <th>Element</th>
                     <th>Description</th>
-                    <th>Extra Info</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><span class = "code">head</span></td>
-                    <td>Contains metadata/information for the whole html document</td>
-                    <td>The following elements can go inside the 
-                        <span class = "code">head</span> element: 
-                        
-                    </td>
+                    <td class="tag">&lt;head&gt;</td>
+                    <td>Contains metadata/information 
+                        about the html document.</td>
                 </tr>
                 <tr>
-                    <td><span class = "code">header</span></td>
-                    <td>A container for introductory content or a set of navigational links</td>
-                </tr>
-                <tr>
-                    <td><span class = "code"></span></td>
-                </tr>
-                <tr>
-                    <td><span class = "code"></span></td>
-                </tr>
-                <tr>
-                    <td><span class = "code"></span></td>
+                    <td class="tag">&lt;body&gt;</td>
+                    <td>Represents the content of an HTML document.</td>
                 </tr>
             </tbody>
         </table>
-        
     </section>
 
-    <!-- Attributes Reference -->
+    <!--Document metaData-->
     <section>
-        <h2>Attributes</h2>
+        <h2>Document metadata</h2>
         <table>
+            <thead>
+                <th>Element</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tag">&lt;title&gt;</td>
+                    <td>The &lt;title&gt; defines the document's title and is shown in a 
+                        Browser's title bar or page's tab.</td> 
+                </tr>
+                <tr>
+                    <td class="tag">&lt;link&gt;</td>
+                    <td>The &lt;link&gt; element specifies relationships betwween the current 
+                        document and an external resource. Commonly used to link to CSS. </td> 
+                </tr>
+                <tr>
+                    <td class="tag">&lt;style&gt;</td>
+                    <td>The &lt;style&gt; contains style information for a document. It contains
+                        CSS, which is applied to the contents of the documents containing the 
+                        &lt;style&gt; element.
+                </tr>
+                <tr>
+                    <td class="tag">&lt;meta&gt;</td>
+                    <td>The &lt;meta&gt; element represents Metadata that cannot be represented 
+                        by other HTML meta-related elements, like base, link, script. </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
+    <!--Block Element -->
+    <section>
+        <h2>Block Element</h2>
+        <table>
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <!-- Inline Element -->
+    <section>
+        <h2>Inline Element</h2>
+        <table>
+            <thead></thead>
+            <tbody></tbody>
         </table>
     </section>
 </body>   
